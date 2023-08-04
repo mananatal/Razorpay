@@ -1,0 +1,30 @@
+.corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.movingimage
+{
+    animation-name: move;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes move {
+    0%{
+        top:0%;
+    }
+    100%{
+        top:-50%;
+    }
+}
+
+.brpsec{
+    background-size: 100%;
+}
+
+.ft{
+    background: linear-gradient(to right, #eef9fe, #edf7ff)
+}
